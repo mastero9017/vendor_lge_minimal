@@ -17,6 +17,4 @@ PRODUCT_PACKAGES += \
 
 LOCAL_STEM := hammerhead/device-partial.mk
 
-$(call inherit-product-if-exists, vendor/lge/broadcom/$(LOCAL_STEM))
 $(call inherit-product-if-exists, vendor/lge/$(LOCAL_STEM))
-$(call inherit-product-if-exists, vendor/lge/qcom/$(LOCAL_STEM))

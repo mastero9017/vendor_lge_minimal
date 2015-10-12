@@ -14,6 +14,4 @@
 
 LOCAL_STEM := hammerhead/BoardConfigPartial.mk
 
--include vendor/lge/broadcom/$(LOCAL_STEM)
 -include vendor/lge/$(LOCAL_STEM)
--include vendor/lge/qcom/$(LOCAL_STEM)
