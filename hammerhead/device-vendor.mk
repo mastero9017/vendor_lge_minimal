@@ -12,6 +12,8 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
+ifeq ($(TARGET_DEVICE),hammerhead)
+
 PRODUCT_PACKAGES += \
     OmaDmclient \
     qcrilmsgtunnel \
@@ -23,3 +25,5 @@ PRODUCT_PACKAGES += \
 LOCAL_STEM := hammerhead/device-partial.mk
 
 $(call inherit-product-if-exists, vendor/lge/$(LOCAL_STEM))
+
+endif
