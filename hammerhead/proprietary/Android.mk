@@ -1,5 +1,7 @@
 LOCAL_PATH := $(call my-dir)
 
+ifeq ($(TARGET_DEVICE),hammerhead)
+
 include $(CLEAR_VARS)
 LOCAL_MODULE := OmaDmclient
 LOCAL_MODULE_OWNER := lge
@@ -67,8 +69,6 @@ LOCAL_BUILT_MODULE_STEM := package.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
 include $(BUILD_PREBUILT)
-
-ifeq ($(TARGET_DEVICE),hammerhead)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := libacdbloader
