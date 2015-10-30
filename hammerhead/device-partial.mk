@@ -211,4 +211,5 @@ PRODUCT_COPY_FILES := \
     vendor/lge/hammerhead/proprietary/libWVStreamControlAPI_L1.so:system/vendor/lib/libWVStreamControlAPI_L1.so:qcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_firmware.ncd:system/vendor/firmware/bcm2079x-b5_firmware.ncd:broadcom \
     vendor/lge/hammerhead/proprietary/bcm2079x-b5_pre_firmware.ncd:system/vendor/firmware/bcm2079x-b5_pre_firmware.ncd:broadcom \
-    vendor/lge/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom
+    vendor/lge/hammerhead/proprietary/bcm4335c0.hcd:system/vendor/firmware/bcm4335c0.hcd:broadcom \
+    vendor/lge/hammerhead/proprietary/libfmas.so:system/lib/soundfx/libfmas.so
